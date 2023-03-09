@@ -154,7 +154,7 @@ app.post('/profileSet', async(req,res) => {
 //     item.map((el) => {
 //         Nft.findOne({
 //             where : {nft_name : el.name}
-//         }).then((e) => {
+//         }).then((e) => { 
 //             if(!e){
 //                 console.log("zzzz")
 //                 Nft.create({
